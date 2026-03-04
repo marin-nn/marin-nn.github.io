@@ -1,17 +1,25 @@
+<!DOCTYPE html>
 <html>
 <head>
 <style>
 body {
-  display: flex;
-  gap: 20px;
-  padding: 20px;
   font-family: Arial, sans-serif;
+  padding: 40px;
+  background: #f4f4f4;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+}
+
 .menu {
   width: 400px;
   height: 550px;
   padding: 20px;
-  margin: 10px;
+  margin: 10px 0;
   border: 4px solid #333;
   color: white;
   background-size: cover;
@@ -20,22 +28,35 @@ body {
   box-sizing: border-box;
   border-radius: 15px;
 }
+
 .breakfast {
   background-image: url('https://images.unsplash.com/photo-1505253216365-2f9c327a1b2b');
 }
+
 .lunch {
   background-image: url('https://images.unsplash.com/photo-1498579150354-977475b7ea0b');
-  background-repeat: no-repeat;
-}
-.dinner {
-  background-image: url('https://images.unsplash.com/photo-1473093295043-cdd812d0e601');
   background-position: center;
 }
-h2 { text-align:center; }
-ul { background: rgba(0,0,0,0.5); padding:15px; border-radius:10px; }
+
+.dinner {
+  background-image: url('https://images.unsplash.com/photo-1473093295043-cdd812d0e601');
+  background-repeat: no-repeat;
+}
+
+h2 {
+  text-align: center;
+}
+
+ul {
+  background: rgba(0,0,0,0.6);
+  padding: 15px;
+  border-radius: 10px;
+}
 </style>
 </head>
 <body>
+<div class="container">
+
 <div class="menu breakfast">
 <h2>Breakfast Menu</h2>
 <ul>
@@ -67,6 +88,8 @@ ul { background: rgba(0,0,0,0.5); padding:15px; border-radius:10px; }
 <li>Wine</li>
 <li>Chocolate Cake</li>
 </ul>
+</div>
+
 </div>
 </body>
 </html>
