@@ -11,21 +11,24 @@ body{
     margin:0;
 }
 
-/* Navigation bar using position */
-<style>
-  .box {
-     color:white;
-     position:fixed; 
-	 font-weight:bold;
-     left:0px; 
-     bottom:0px; 
-     width:200px; 
-     height:50px; 
-     border:black
-	 border-radius: 10px;
-     background-color:#333;
-  }
 
+.bar {
+    color: white;
+    position: fixed; 
+    font-weight: bold;
+    left: 0px; 
+    bottom: 0px; 
+    width: 200px; 
+    height: 50px; 
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #333;
+
+.bar a {
+    color: black;
+    display: block;
+    padding: 10px;
+}
 /* Page title */
 header{
     text-align:center;
@@ -50,7 +53,7 @@ header{
 
 <body>
 
-<div class="box">
+<div class="bar">
 <a href="#">Home</a>
 <a href="#">Nap Schedule</a>
 <a href="#">Contact Us</a>
