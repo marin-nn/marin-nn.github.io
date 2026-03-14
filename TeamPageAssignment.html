@@ -12,15 +12,19 @@ body{
 }
 
 /* Navigation bar using position */
-nav{
-    color:white;
-    background:#333;
-	border-radius: 10px;
-	font-weight:bold;
-    padding:10px;
-    position:fixed; 
-    top:0;
-}
+<style>
+  .box {
+     color:white;
+     position:fixed; 
+	 font-weight:bold;
+     left:0px; 
+     bottom:0px; 
+     width:200px; 
+     height:50px; 
+     border:black
+	 border-radius: 10px;
+     background-color:#333;
+  }
 
 /* Page title */
 header{
@@ -36,18 +40,21 @@ header{
     height: 100px;
     float:left; 
 }
-
+.member{
+    clear:both;
+    margin-bottom:30px;
+}
 </style>
 
 </head>
 
 <body>
 
-<nav>
+<div class="box">
 <a href="#">Home</a>
 <a href="#">Nap Schedule</a>
 <a href="#">Contact Us</a>
-</nav>
+</div>
 
 <header>
 <h1>Midnight Cat Team</h1>
