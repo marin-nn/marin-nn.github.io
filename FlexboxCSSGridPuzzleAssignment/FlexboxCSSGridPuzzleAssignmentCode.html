@@ -1,28 +1,55 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
 <head>
+<style
   <meta charset="UTF-8">
   <title>Puzzle Assignment</title>
-  <style>
-   .grid-container {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: auto 3fr 3fr;
-	border: 1px solid black
-  }
+  .flex-puzzle {
+  display: flex;
+  flex-wrap: wrap;          
+  justify-content: center;            
+}
+
+.flex-puzzle img {
+  width: 33.33%;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.flex-puzzle img.hidden {
+  display: none;
+}
 </style>
 </head>
 <body>
-<section class="grid-container">
-  <div class="grid-item">1</div>
-  <div class="grid-item">2</div>
-  <div class="grid-item">3</div>
-  <div class="grid-item">4</div>
-  <div class="grid-item">5</div>
-  <div class="grid-item">6</div>
-  <div class="grid-item">7</div>
-  <div class="grid-item">8</div>
-  <div class="grid-item">9</div>
-</section>
+  <div class="grid-container">
+    
+    <!-- Section 1: Name and Puzzle -->
+    <section class="header">
+      <h1>Lyakh Maria</h1>
+      <h2>Selected Puzzle: Fish</h2>
+    </section>
+
+    <!-- Section 2: Puzzle assembled with Flexbox -->
+    <section class="puzzle">
+      <div class="flex-puzzle">
+        <img src="https://marin-nn.github.io/FlexboxCSSGridPuzzleAssignment/puzzle/puzzle3_A.jpg" alt="Puzzle piece 1">
+        <img src="https://marin-nn.github.io/FlexboxCSSGridPuzzleAssignment/puzzle/puzzle3_B.jpg" alt="Puzzle piece 2">
+        <img src="https://marin-nn.github.io/FlexboxCSSGridPuzzleAssignment/puzzle/puzzle3_C.jpg" alt="Puzzle piece 3">
+        <img src="https://marin-nn.github.io/FlexboxCSSGridPuzzleAssignment/puzzle/puzzle3_D.jpg" alt="Puzzle piece 4">
+        <img src="https://marin-nn.github.io/FlexboxCSSGridPuzzleAssignment/puzzle/puzzle3_E.jpg" alt="Puzzle piece 5">
+        <img src="https://marin-nn.github.io/FlexboxCSSGridPuzzleAssignment/puzzle/puzzle3_F.jpg" alt="Puzzle piece 6">
+        <img src="https://marin-nn.github.io/FlexboxCSSGridPuzzleAssignment/puzzle/puzzle3_G.jpg" alt="Puzzle piece 7">
+        <img src="https://marin-nn.github.io/FlexboxCSSGridPuzzleAssignment/puzzle/puzzle3_H.jpg" alt="Puzzle piece 8">
+        <img src="https://marin-nn.github.io/FlexboxCSSGridPuzzleAssignment/puzzle/puzzle3_I.jpg" alt="Puzzle piece 9">
+        <img src="https://marin-nn.github.io/FlexboxCSSGridPuzzleAssignment/puzzle/puzzle3_J.jpg" alt="Wrong Piece" class="hidden">>
+      </div>
+    </section>
+
+    <!-- Section 3: Date -->
+    <section class="date">
+      <p>The task was completed on March 20, 2026.</p>
+    </section>
+
+  </div>
 </body>
 </html>
