@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f7f7cd;
+    background-color: #fafaf5;
     text-align: center;
 }
 
@@ -20,14 +20,14 @@ h1 {
 }
 
 .scorecard th {
-    background-color: #f5d81d;
+    background-color: #d95757;
     color: white;
 }
 
 .scorecard tbody tr:nth-child(even) {
-    background-color: #fae4d7; /*diff table colors*/
+    background-color: #faf9e8; /*diff table colors*/
 }
 
 .scorecard tbody tr:hover {
-    background-color: #f2a196; /*hover effect */
+    background-color: #e8e7d8; /*hover effect */
 }
