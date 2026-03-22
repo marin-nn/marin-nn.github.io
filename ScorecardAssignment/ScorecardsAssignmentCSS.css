@@ -31,3 +31,19 @@ h1 {
 .scorecard tbody tr:hover {
     background-color: #e8e7d8; /*hover effect */
 }
+ .pseudo_after::after {
+    content:"winner!";
+    margin-left:10px;
+    padding:3px;
+    background-color:red;
+    color:white;
+    font-size:12px;
+  }
+  .pseudo_tie::after {
+    content:"tie!";
+    margin-left:10px;
+    padding:3px;
+    background-color:yellow;
+    color:white;
+    font-size:12px;
+  }
