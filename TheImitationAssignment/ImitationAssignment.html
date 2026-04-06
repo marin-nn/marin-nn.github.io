@@ -31,17 +31,25 @@ img {
   border-bottom-right-radius: 100px;
   filter: invert(100%);
   }
-div.a6 {
-  background-image: url(https://marin-nn.github.io/TheImitationAssignment/theater_stage.jpg);
-  height: 100px;
+.a6 {
+  position: relative;         
+  display: inline-block;      
+}
+img.a6 {
+  height: 100px;           
+  width: auto;              
+  display: block;
+}
+.a6.t {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
   font-weight: bold;
-  width: 100%;  
-  line-height: 100px;     
-  color: white;            
-  text-align: center;    
   text-shadow: 2px 2px 8px black;
-  background-size: cover;
-  }
+  white-space: nowrap;
+}
 </style>
 </head>
 <body>
@@ -55,5 +63,8 @@ div.a6 {
 
   <img class="a5" src="https://marin-nn.github.io/TheImitationAssignment/butterfly.jpg" alt="butterfly">
 
-  <div class="a6">Presenting</div>
+  <div class="a6">
+  <img class="a6" src="https://marin-nn.github.io/TheImitationAssignment/theater_stage.jpg" alt="Stage">
+  <div class="a6.t">Presenting</div>
+  </div>
 </body>
