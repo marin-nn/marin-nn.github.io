@@ -1,6 +1,6 @@
 /*CSS design*/
 body {
-  margin: 0;
+  margin-top: 80px;
   padding: 0;
   text-align: center;
 }
@@ -87,10 +87,6 @@ footer {
   color: white;
   text-align: center;
   padding: 10px;
-}
-
-.simple {
-  list-style-type: square;
 }
 
 .complex ul {
