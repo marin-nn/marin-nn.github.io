@@ -4,6 +4,19 @@ body {
   padding: 0;
   text-align: center;
 }
+header {
+  background-color: #b84242;
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+  border-bottom: 4px solid black;
+}
+
+header h1 {
+  font-size: 45px;
+  margin: 0;
+  letter-spacing: 2px;
+}
 .container {
   width: 100%;
   max-width: 100%;
@@ -51,8 +64,8 @@ nav a:hover {
 }
 
 img {
-  border: 4px solid red;       
-  outline: 4px dashed yellow;
+  border: 4px #6e1717;       
+  outline: 4px dashed #fff9bd;
   max-width: 100%;
 }
 
@@ -104,4 +117,17 @@ img.wide {
   width: 100%;
   height: 200px;
   object-fit: cover;
+}
+ul.red {
+  list-style-type: none;   /* removes default bullets */
+  padding: 0;
+}
+
+ul.red li {
+  background-color: #d97575;
+  color: white;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid black;
 }
