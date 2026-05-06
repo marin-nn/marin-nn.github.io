@@ -14,9 +14,15 @@ header {
 }
 
 header h1 {
+  font-size: 40px;
+  margin: 0;
+  letter-spacing: 1px;
+}
+h2 {
   font-size: 30px;
   margin: 0;
   letter-spacing: 1px;
+  color: #4d1212;
 }
 .container {
   width: 100%;
@@ -84,8 +90,8 @@ th, td {
 }
 
 footer {
-  background-color: red;
-  color: white;
+  background-color: #fffee6;
+  color: #e0daab;
   text-align: center;
   padding: 10px;
 }
