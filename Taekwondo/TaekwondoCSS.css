@@ -1,0 +1,60 @@
+/*CSS design*/
+nav a {
+  margin: 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 20px;
+}
+
+.flex-box {
+  display: flex;
+  gap: 20px;
+}
+
+img {
+  max-width: 100%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 10px;
+}
+
+footer {
+  background-color: red;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.simple-list {
+  list-style-type: square;
+}
+
+.complex-list ul {
+  list-style-type: circle;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Philosophy</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header><h1>Philosophy</h1></header>
+<nav>
+<a href="index.html">Home</a>
+<a href="history.html">History</a>
+<a href="masters.html">Masters</a>
+<a href="techniques.html">Techniques</a>
+<a href="philosophy.html">Philosophy</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+<div class="container">
+<figure>
+<img src="philosophy.jpg" alt="Meditation in Taekwondo">
+<figcaption>Balance of body and mind</figcaption>
+</figure>
+<p>Taekwondo is not just physical—it teaches respect, perseverance, and self-control.</p>
+<video controls>
+<source src="tkd.mp4" type="video/mp4">
+</video>
+</div>
+<footer>© 2026</footer>
+</body>
+</html>
