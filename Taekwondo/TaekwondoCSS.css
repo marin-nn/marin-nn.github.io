@@ -5,17 +5,17 @@ body {
   text-align: center;
 }
 header {
-  background-color: #b84242;
-  color: white;
-  padding: 50px 20px;
+  background-color: #fffed6;
+  color: black;
+  padding: 30px 10px;
   text-align: center;
-  border-bottom: 4px solid black;
+  border-bottom: 4px solid #b84242;
 }
 
 header h1 {
-  font-size: 45px;
+  font-size: 30px;
   margin: 0;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 .container {
   width: 100%;
@@ -64,7 +64,7 @@ nav a:hover {
 }
 
 img {
-  border: 4px #6e1717;       
+  border: 4px solid #6e1717;       
   outline: 4px dashed #fff9bd;
   max-width: 100%;
 }
@@ -89,25 +89,23 @@ footer {
   padding: 10px;
 }
 
-.complex ul {
-  list-style-type: circle;
-}
-
 form {
   display: flex;
   flex-direction: column;
   max-width: 400px;
 }
 .red-line {
+  padding: 30px;
   width: 100%;
-  height: 15px;
-  background-color: red;
+  height: 50px;
+  background-color: #ba4343;
 }
 
 .yellow-line {
+  padding: 30px;
   width: 100%;
-  height: 15px;
-  background-color: yellow;
+  height: 40px;
+  background-color: #fffca6;
 }
 img.wide {
   width: 100%;
@@ -115,7 +113,7 @@ img.wide {
   object-fit: cover;
 }
 ul.red {
-  list-style-type: none;   /* removes default bullets */
+  list-style-type: none;
   padding: 0;
 }
 
