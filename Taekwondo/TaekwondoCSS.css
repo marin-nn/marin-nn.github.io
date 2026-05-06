@@ -20,8 +20,9 @@ header h1 {
   letter-spacing: 1px;
 }
 h2 {
-  margin-bottom: 30px;
-  font-size: 50px;
+  font-family: "Copperplate", "Copperplate Gothic", serif;
+  margin-bottom: 50px;
+  font-size: 100px;
   letter-spacing: 1px;
   color: #966363;
 }
@@ -31,6 +32,9 @@ h2 {
   padding: 10px 5px;
   border-bottom: 4px solid #b84242;
   border-top: 4px solid #b84242;
+}
+.left {
+  text-align: left;
 }
 .container {
   width: 100%;
@@ -128,6 +132,7 @@ img.wide {
   object-fit: cover;
 }
 ul.red {
+  width: 50%;
   border: 2px solid #6e1717;
   list-style-type: none;
   padding: 0;
@@ -135,8 +140,9 @@ ul.red {
 }
 
 ul.red li {
+  font-weight: bold;
+  font-size: 20px;
   list-style-type: none;
-  color: black;
   margin: 10px 0;
   padding: 15px;
   border-radius: 8px;
