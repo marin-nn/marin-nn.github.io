@@ -10,6 +10,7 @@ header {
   padding: 30px 10px;
   text-align: center;
   border-bottom: 4px solid #b84242;
+  border-top: 4px solid #b84242;
 }
 
 header h1 {
@@ -119,10 +120,9 @@ ul.red {
 
 ul.red li {
   list-style-type: none;
-  background-color: #d97575;
-  color: white;
-  margin: 8px 0;
-  padding: 10px;
+  background-color: #f5b5b5;
+  color: black;
+  margin: 10px 0;
+  padding: 15px;
   border-radius: 8px;
-  border: 2px solid black;
 }
