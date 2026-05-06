@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Techniques</title>
-<link rel="stylesheet" href="TaekwondoCSS.css">
+<link rel="stylesheet" a href="TaekwondoCSS.css">
 </head>
 <body>
 <header><h1>Techniques</h1></header>
