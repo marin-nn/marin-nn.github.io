@@ -76,11 +76,11 @@ footer {
   padding: 10px;
 }
 
-.simple-list {
+.simple {
   list-style-type: square;
 }
 
-.complex-list ul {
+.complex ul {
   list-style-type: circle;
 }
 
