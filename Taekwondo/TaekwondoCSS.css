@@ -2,6 +2,7 @@
 body {
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 .container {
   width: 100%;
@@ -9,6 +10,23 @@ body {
   margin: 0;
   padding: 20px;
   box-sizing: border-box;
+}
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  background-color: #b84242;
+  border: 2px solid black;
+  border-radius: 12px;
+  padding: 10px;
+
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+  z-index: 1000;
 }
 nav a {
   margin: 10px;
@@ -33,6 +51,8 @@ nav a:hover {
 }
 
 img {
+  border: 4px solid red;       
+  outline: 4px dashed yellow;
   max-width: 100%;
 }
 
@@ -68,4 +88,20 @@ form {
   display: flex;
   flex-direction: column;
   max-width: 400px;
+}
+.red-line {
+  width: 100%;
+  height: 15px;
+  background-color: red;
+}
+
+.yellow-line {
+  width: 100%;
+  height: 15px;
+  background-color: yellow;
+}
+img.wide {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
 }
