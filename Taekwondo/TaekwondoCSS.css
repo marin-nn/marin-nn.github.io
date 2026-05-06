@@ -34,7 +34,7 @@ h2 {
   border-top: 4px solid #b84242;
 }
 .left {
-  text-align: left;
+  text-align: left !important;
 }
 .container {
   width: 100%;
@@ -135,13 +135,10 @@ ul.red {
   width: 50%;
   border: 2px solid #6e1717;
   list-style-type: none;
-  padding: 0;
   background-color: #f5b5b5;
 }
 
 ul.red li {
-  font-weight: bold;
-  font-size: 20px;
   list-style-type: none;
   margin: 10px 0;
   padding: 15px;
