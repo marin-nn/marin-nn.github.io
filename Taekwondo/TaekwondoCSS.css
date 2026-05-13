@@ -174,3 +174,7 @@ ul.inv {
   padding: 0;
   margin: 0;
 }
+ol li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
