@@ -133,8 +133,9 @@ nav a:hover {
 }
 .flexbox {
   display: flex;
-  justify-content: space-between;
-  align-items: center; 
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
 }
 .history {
   text-align: left !important;
