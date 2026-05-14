@@ -182,7 +182,26 @@ ul.inv {
   padding: 0;
   margin: 0;
 }
-
+.button {
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: #2563eb;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+.button:hover {
+  background-color: #1d4ed8;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+.button:active {
+  transform: translateY(0px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
 
 /*Css grid special*/
 .info-grid {
