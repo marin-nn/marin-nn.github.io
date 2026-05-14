@@ -143,9 +143,11 @@ nav a:hover {
 .history p {
   font-size: 25px !important;
 }
-.flex-box {
+.flexbox {
   display: flex;
-  gap: 20px;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
 }
 
 .complextable {
@@ -184,7 +186,10 @@ ul.inv {
   margin: 0;
 }
 .button {
+  display: block;
+  width: 350px;
   padding: 12px 20px;
+  text-align: center;
   background-color: #fffed6;
   color: black;
   text-decoration: none;
@@ -193,7 +198,7 @@ ul.inv {
   border: 4px solid #b84242;
   transition: all 0.2s ease;
   box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-  display: inline-block;
+  box-sizing: border-box;
 }
 .button:hover {
   color: #380303;
