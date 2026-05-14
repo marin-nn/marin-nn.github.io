@@ -34,45 +34,25 @@ If you enjoyed reding about taekwondo you can learn more at these websites:
 <h3>
 If you have any feedback or suggestions about this project you can contact us throuth this application:
 </h3>
-  <form class="feedback-form">
+<form class="feedback">
 
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+  <label>Name:</label>
+  <input type="text">
 
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" placeholder="Enter your email" required>
-
+  <label>Email:</label>
+  <input type="email">
     <label>How much did you like this website?</label>
-
-    <div class="rating-options">
+    <select>
       <label>
-        <input type="radio" name="rating" value="Excellent" required>
-        I really liked it
-      </label>
-
-      <label>
-        <input type="radio" name="rating" value="Good">
-        I liked it
-      </label>
-
-      <label>
-        <input type="radio" name="rating" value="Okay">
-        It was okay ig
-      </label>
-
-      <label>
-        <input type="radio" name="rating" value="Bad">
-        It was not really interesting
-      </label>
-	  
-	  <label>
-        <input type="radio" name="rating" value="Horrible">
-        It was horrible
-      </label>
-    </div>
+       <option>I loved liked it</option>
+      <option>I liked it</option>
+      <option>It was okay ig</option>
+      <option>It was not really interesting</option>
+      <option>It was horrible</option>
+    </select>
 
     <label for="feedback">Feedback:</label>
-    <textarea id="feedback" name="feedback" rows="5" placeholder="Tell us what you think.."></textarea>
+    <textarea rows="5" placeholder="Tell us what you think.." style="placeholder-opacity: 0.5;"></textarea>
 
     <button type="submit" class="button">Submit Feedback</button>
 

@@ -193,6 +193,7 @@ ul.inv {
   border: 4px solid #b84242;
   transition: all 0.2s ease;
   box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  display: inline-block;
 }
 .button:hover {
   color: #380303;
@@ -204,6 +205,13 @@ ul.inv {
 .button:active {
   transform: translateY(0px);
   box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+.feedback {
+  width: 500px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 /*Css grid special*/
