@@ -18,9 +18,9 @@
 </nav>
 
 <div class="container">
-<p>
+<h3>
 If you enjoyed reding about taekwondo you can learn more at these websites:
-</p>
+</h3>
 <div class="flexbox">
 <a href="https://en.wikipedia.org/wiki/Taekwondo" class="button">International Taekwon-Do Federation</a>
 <a href="https://en.wikipedia.org/wiki/Taekwondo" class="button">Taekwondo Wikipedia</a>
@@ -31,6 +31,53 @@ If you enjoyed reding about taekwondo you can learn more at these websites:
 <a href="https://en.wikipedia.org/wiki/List_of_taekwondo_techniques" class="button">Taekwondo Techniques List Wikipedia</a>
 <a href="https://itftkd.sport/history/our-philosophy/" class="button">Taekwondo Philosophy</a>
 </div>
+<h3>
+If you have any feedback or suggestions about this project you can contact us throuth this application:
+</h3>
+  <form class="feedback-form">
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+    <label>How much did you like this website?</label>
+
+    <div class="rating-options">
+      <label>
+        <input type="radio" name="rating" value="Excellent" required>
+        I really liked it
+      </label>
+
+      <label>
+        <input type="radio" name="rating" value="Good">
+        I liked it
+      </label>
+
+      <label>
+        <input type="radio" name="rating" value="Okay">
+        It was okay ig
+      </label>
+
+      <label>
+        <input type="radio" name="rating" value="Bad">
+        It was not really interesting
+      </label>
+	  
+	  <label>
+        <input type="radio" name="rating" value="Horrible">
+        It was horrible
+      </label>
+    </div>
+
+    <label for="feedback">Feedback:</label>
+    <textarea id="feedback" name="feedback" rows="5" placeholder="Tell us what you think.."></textarea>
+
+    <button type="submit" class="button">Submit Feedback</button>
+
+  </form>
+</section>
 </div>
 <footer>© 2026 Maria's Taekwondo Project</footer>
 </body>
