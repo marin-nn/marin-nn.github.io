@@ -184,10 +184,10 @@ ul.inv {
   padding: 0;
   margin: 0;
 }
-.button {
+/*.button {
   display: block;
   width: 600px;
-  /*padding: 12px 20px;*/
+  padding: 12px 20px;
   margin-bottom: 12px;
   text-align: center;
   background-color: #fffed6;
@@ -196,8 +196,8 @@ ul.inv {
   font-weight: 600;
   border: 4px solid #b84242;
   transition: all 0.2s ease;
-  /*box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-  box-sizing: border-box;*/
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  box-sizing: border-box;
 }
 .button:hover {
   color: #380303;
@@ -209,7 +209,7 @@ ul.inv {
 .button:active {
   transform: translateY(0px);
   box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-}
+}*/
 .feedback {
   width: 500px;
   margin: 20px auto;
