@@ -1,4 +1,4 @@
-/*CSS design*/
+/*Basic elements*/
 body {
   font-size: 20px;
   margin-top: 80px;
@@ -28,6 +28,90 @@ h2 {
   letter-spacing: 1px;
   color: #966363;
 }
+img {
+  border: 4px solid #6e1717;       
+  outline: 4px dashed #fff9bd;
+  max-width: 100%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+footer {
+  background-color: #fffee6;
+  color: #e0daab;
+  text-align: center;
+  padding: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+th, td {
+  padding: 10px;
+}
+ol {
+  width: fit-content;
+  margin: 0 auto;
+}
+ol li {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #b84242;
+  border: 2px solid black;
+  border-radius: 12px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  z-index: 1000;
+}
+nav a {
+  margin: 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+
+/*Design elements*/
+.red-line {
+  margin-bottom: 20px;
+  width: 100%;
+  height: 20px;
+  background-color: #d97575;
+}
+
+.yellow-line {
+  margin-bottom: 20px;
+  width: 100%;
+  height: 15px;
+  background-color: #fffca6;
+}
+
+
+
+/*Special classes*/
 .bold {
   background-color: #fffed6;
   color: black;
@@ -43,37 +127,6 @@ h2 {
   max-width: 100%;
   margin: 0;
   box-sizing: border-box;
-}
-nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-
-  background-color: #b84242;
-  border: 2px solid black;
-  border-radius: 12px;
-  padding: 10px;
-
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-
-  z-index: 1000;
-}
-nav a {
-  margin: 10px;
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-}
-
-nav a:hover {
-  text-decoration: underline;
-  color: white;
-}
-
-.container {
   display: grid;
   grid-template-columns: 1fr;
   padding: 20px;
@@ -94,24 +147,6 @@ nav a:hover {
   gap: 20px;
 }
 
-img {
-  border: 4px solid #6e1717;       
-  outline: 4px dashed #fff9bd;
-  max-width: 100%;
-}
-
-table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-table, th, td {
-  border: 1px solid black;
-}
-
-th, td {
-  padding: 10px;
-}
 .complextable {
   background-color: #fffee6;
   border: 3px solid #966363;
@@ -120,32 +155,6 @@ th, td {
   width: 80%;
   margin: 30px auto;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
-
-footer {
-  background-color: #fffee6;
-  color: #e0daab;
-  text-align: center;
-  padding: 10px;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  max-width: 400px;
-}
-.red-line {
-  margin-bottom: 20px;
-  width: 100%;
-  height: 20px;
-  background-color: #d97575;
-}
-
-.yellow-line {
-  margin-bottom: 20px;
-  width: 100%;
-  height: 15px;
-  background-color: #fffca6;
 }
 img.wide {
   width: 100%;
@@ -163,7 +172,6 @@ ul.red {
   list-style-type: none;
   background-color: #f5b5b5;
 }
-
 ul.red li {
   text-align: center;
   list-style-type: none;
@@ -174,16 +182,9 @@ ul.inv {
   padding: 0;
   margin: 0;
 }
-ol {
-  width: fit-content;
-  margin: 0 auto;
-}
-ol li {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  gap: 10px;
-}
+
+
+/*Css grid special*/
 .info-grid {
     display: grid;
     grid-template-columns: 1fr 2fr;
