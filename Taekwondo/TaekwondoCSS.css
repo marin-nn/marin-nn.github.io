@@ -135,9 +135,9 @@ nav a:hover {
   padding: 10px;
   display: flex;
   justify-content: center;
-  gap: 20px;
 }
 .flexbox a {
+  text-decoration: none;
   background-color: #fffed6;
   margin: 10px;
   color: black;
