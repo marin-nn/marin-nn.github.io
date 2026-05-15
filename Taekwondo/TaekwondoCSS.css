@@ -138,6 +138,7 @@ nav a:hover {
 .flexi {
   background-color: #fffed6;
   color: black;
+  border: 4px solid #b84242;
   padding: 12px 20px;
   margin: 10px;
 }
@@ -145,11 +146,8 @@ nav a:hover {
   display: block;
   width: 600px;
   text-align: center;
-  background-color: #fffed6;
-  color: black;
   border-radius: 4px;
   font-weight: 600;
-  border: 4px solid #b84242;
   transition: all 0.2s ease;
   box-shadow: 0 4px 10px rgba(0,0,0,0.15);
   box-sizing: border-box;
