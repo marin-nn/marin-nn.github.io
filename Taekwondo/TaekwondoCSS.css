@@ -132,8 +132,6 @@ nav a:hover {
 }
 .flexbox {
   width: 100%;
-  border: 2px solid black;
-  border-radius: 12px;
   padding: 10px;
   display: flex;
   justify-content: center;
@@ -151,6 +149,7 @@ nav a:hover {
   transition: all 0.2s ease;
   box-shadow: 0 4px 10px rgba(0,0,0,0.15);
   box-sizing: border-box;
+  padding: 10px;
 }
 .flexbox a:hover {
   color: #380303;
@@ -162,12 +161,12 @@ nav a:hover {
 .flexbox a:active {
   transform: translateY(0px);
   box-shadow: 0 4px 10px rgba(0,0,0,0.15)
+}
 
 /*.button {
   position: fixed;
   top: 0;
   left: 0;
-  padding: 10px;
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -183,9 +182,10 @@ nav a:hover {
   transform: translateY(0px);
   box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 } */
+
 .history {
   text-align: left !important;
-}
+
 .history p {
   font-size: 25px !important;
 }
@@ -230,6 +230,7 @@ ul.inv {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  align-items: center;
 }
 
 /*Css grid special*/
