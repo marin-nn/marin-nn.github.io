@@ -135,18 +135,20 @@ nav a:hover {
   justify-content: center;
   align-items: center;
 }
-.flexi {
+
+.button {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
   background-color: #fffed6;
   color: black;
   border: 4px solid #b84242;
-  padding: 12px 20px;
-  flex: 1; 
-}
-/*.button {
-  display: block;
-  width: 600px;
   text-align: center;
-  border-radius: 4px;
+  border-radius: 3px;
   font-weight: 600;
   transition: all 0.2s ease;
   box-shadow: 0 4px 10px rgba(0,0,0,0.15);
@@ -162,7 +164,7 @@ nav a:hover {
 .button:active {
   transform: translateY(0px);
   box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-}*/
+}
 .history {
   text-align: left !important;
 }
