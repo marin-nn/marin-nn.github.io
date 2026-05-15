@@ -131,12 +131,29 @@ nav a:hover {
   padding: 20px;
 }
 .flexbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #b84242;
+  border: 2px solid black;
+  border-radius: 12px;
+  padding: 10px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  gap: 20px;
+}
+.flexbox a {
+  margin: 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.flexbox a:hover {
+  color: #fadd73;
 }
 
-.button {
+/*.button {
   position: fixed;
   top: 0;
   left: 0;
@@ -164,20 +181,13 @@ nav a:hover {
 .button:active {
   transform: translateY(0px);
   box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-}
+} */
 .history {
   text-align: left !important;
 }
 .history p {
   font-size: 25px !important;
 }
-.flexbox {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-}
-
 .complextable {
   background-color: #fffee6;
   border: 3px solid #966363;
