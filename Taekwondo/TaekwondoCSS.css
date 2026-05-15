@@ -132,15 +132,15 @@ nav a:hover {
 }
 .flexbox {
   display: flex;
-  flex-direction: row;
-  gap: 10px;
+  justify-content: center;
+  align-items: center;
 }
 .flexi {
   background-color: #fffed6;
   color: black;
   border: 4px solid #b84242;
   padding: 12px 20px;
-  margin: 10px;
+  flex: 1; 
 }
 /*.button {
   display: block;
