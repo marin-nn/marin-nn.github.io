@@ -211,7 +211,6 @@ ul.inv {
   display: flex;
   flex-direction: column;
   gap: 15px;
-  align-items: center;
 }
 
 /*Css grid special*/
