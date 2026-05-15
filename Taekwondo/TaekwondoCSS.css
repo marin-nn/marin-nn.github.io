@@ -131,6 +131,7 @@ nav a:hover {
   padding: 20px;
 }
 .flexbox {
+  text-decoration: none;
   width: 100%;
   padding: 10px;
   display: flex;
